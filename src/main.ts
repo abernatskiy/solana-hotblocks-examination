@@ -65,5 +65,5 @@ run(dataSource, database, async ctx => {
     )
   )
 
-  ctx.store.insert(insobjs)
+  await ctx.store.insert(insobjs)
 })
