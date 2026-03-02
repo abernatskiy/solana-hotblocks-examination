@@ -1,0 +1,6 @@
+type Instruction @entity {
+  id: ID!
+  block: Int! @index
+  blockHash: String!
+  signature: String! @index
+}
