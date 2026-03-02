@@ -15,8 +15,7 @@ const dataSource = new DataSourceBuilder()
     },
   })
   .setBlockRange({
-    from: 399315146,
-    to: 399315165,
+    from: 403780000,
   })
   .setFields({
     block: {
